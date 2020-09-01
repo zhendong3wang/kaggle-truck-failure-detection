@@ -54,4 +54,4 @@ Model | F2 score | Total Cost
 
 Back to the objective, we find that that Logistic Regression combined with grid search CV models can achieve the lowest the maintenance cost. Even though XGBoost models have better F2 scores in general, Logistic Regression handles the imbalanced class problem better in this case. In conclusion, Logistic Regression combined with grid search CV for finding the optimal regularization parameter C is the optimal model.
 
-In the end, we fit the optimal model using Logistic Regression with all the training data. And then we predict all the instances from testing data set by the final model. The Jupyter notebook is available [here](./notebooks/1.4-make-prediction.ipynb) The results are saved as a [text file](./results.txt).
+In the end, we fit the optimal model using Logistic Regression with all the training data. And then we predict all the instances from testing data set by the final model. The Jupyter notebook is available [here](./notebooks/1.4-make-prediction.ipynb). The results are saved as a [text file](./results.txt).
