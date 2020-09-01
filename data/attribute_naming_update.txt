@@ -1,0 +1,17 @@
+Attribute names update	
+--------------------------
+
+The original dataset contained a systematic error in the naming of histogram variables.
+The first (leftmost) column for each histogram was falsely included in the histogram 
+and the last column was falsely omitted. For example for the attributes names: 
+af_000, af_001, ..., af_009, ag_000, ah_000, 
+should have been:
+af_000, ag_000, ..., ag_008, ag_009, ah_000,
+
+All histogram variables were affected by this error. In the updated dataset 
+this issue has been corrected.
+Thanks to Ezgi Can Ozan for bringing this to our attention.
+
+Tony Lindgren,
+
+IDA 2016 Industrial Challenge Chair
